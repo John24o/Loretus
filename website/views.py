@@ -11,6 +11,7 @@ from django.db import transaction
 # Create your views here.
 def home(request):
     print("HOLA")
+    print("ROBERTO")
     return render(
         request,
         'loreto/index.html',
