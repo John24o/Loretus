@@ -12,6 +12,7 @@ from django.db import transaction
 def home(request):
     print("HOLA")
     print("ROBERTO")
+    print("Jonny")
     return render(
         request,
         'loreto/index.html',
