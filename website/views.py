@@ -10,12 +10,6 @@ from django.db import transaction
 
 # Create your views here.
 def home(request):
-    print("HOLA")
-    print("ROBERTO")
-    print("Jonny")
-    print('Tomas')
-
-    print("Hello world")
     return render(
         request,
         'loreto/index.html',
