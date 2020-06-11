@@ -13,6 +13,7 @@ def home(request):
     print("HOLA")
     print("ROBERTO")
     print("Jonny")
+    print('Tomas')
     return render(
         request,
         'loreto/index.html',
