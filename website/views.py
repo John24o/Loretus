@@ -11,6 +11,7 @@ from django.db import transaction
 # Create your views here.
 def home(request):
     print('Ya vamos a jugar fornai')
+    print('Ya vamos a jugar fornai2')
     print("PRUEBA FINL")
     return render(
         request,
