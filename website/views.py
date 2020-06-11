@@ -10,6 +10,7 @@ from django.db import transaction
 
 # Create your views here.
 def home(request):
+    print("PRUEBA FINL")
     return render(
         request,
         'loreto/index.html',
