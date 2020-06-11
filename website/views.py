@@ -10,7 +10,10 @@ from django.db import transaction
 
 # Create your views here.
 def home(request):
-    print("HOLA")
+    print('Ya vamos a jugar fornai')
+    print('Ya vamos a jugar fornai2')
+    print('Ya vamos a jugar fornai x3000')
+    print("PRUEBA FINL")
     return render(
         request,
         'loreto/index.html',
