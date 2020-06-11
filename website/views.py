@@ -14,6 +14,8 @@ def home(request):
     print("ROBERTO")
     print("Jonny")
     print('Tomas')
+
+    print("Hello world")
     return render(
         request,
         'loreto/index.html',
